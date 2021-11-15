@@ -18,7 +18,7 @@ namespace Module2HW2.Providers
             new Device(9, "Asus VG249Q", "Monitor", 5888, CurrencyEnum.UAN),
             new Device(10, "Huawei Freebuds 4", "Headphones", 4449, CurrencyEnum.UAN),
             new Device(11, "Razer Viper Ultimate", "Mouse", 4499, CurrencyEnum.UAN),
-            new Device(12, "Logitech G Pro GX", "Keyboard", 3187, CurrencyEnum.UAN),
+            new Device(12, "Logitech G Pro GX", "Keyboard", 3187, CurrencyEnum.UAN)
         };
 
         public Device[] GetAllDevices()
