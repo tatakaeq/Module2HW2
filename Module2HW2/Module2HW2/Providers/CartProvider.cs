@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Linq;
+using Module2HW2.Enums;
 using Module2HW2.Models;
 using Module2HW2.Services;
 
 namespace Module2HW2.Providers
 {
-    public sealed class CartProvider
+    public class CartProvider
     {
+        private const int CartSpace = 10;
         private static readonly CartProvider _instance = new CartProvider();
-        private readonly Device[] _devicesAtCart = new Device[10];
+        private readonly Device[] _devicesAtCart = new Device[CartSpace];
 
         static CartProvider()
         {

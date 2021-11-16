@@ -2,33 +2,14 @@
 {
     public class User
     {
-        public User(string username, string name, string password, string email, string phoneNumber)
-         {
-             Username = username;
-             Name = name;
-             Password = password;
-             Email = email;
-             PhoneNumber = phoneNumber;
-         }
+        public string Username { get; set; }
 
-        private string Username { get; set; }
+        public string Name { get; set; }
 
-        private string Name { get; set; }
+        public string Password { get; set; }
 
-        private string Password { get; set; }
+        public string Email { get; set; }
 
-        private string Email { get; set; }
-
-        private string PhoneNumber { get; set; }
-
-        public string GetUserEmail()
-        {
-            return Email;
-        }
-
-        public string GetUserPhone()
-        {
-            return PhoneNumber;
-        }
+        public string PhoneNumber { get; set; }
     }
 }
